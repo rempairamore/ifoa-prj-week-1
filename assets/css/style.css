@@ -1,0 +1,218 @@
+/* IMPOSTAZIONI GENERALI */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* Font size del Browser 16px */
+  font-size: 1em; /* 14.4 px */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem; /* 16px */
+  line-height: 1.65;
+  color: #393d41;
+  text-align: center;
+}
+
+body p:first-child {
+  font-weight: 200;
+  font-size: 0.8rem;
+  margin: 1px 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+/* HEADER */
+header {
+  background-color: black;
+}
+
+header img {
+  width: 45%;
+  padding: 30px;
+}
+
+/* MAIN ARTICLE */
+
+article div.partiamo {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  padding: 40px 37px;
+  margin-bottom: 35px;
+}
+
+article div.partiamo h1 {
+  line-height: 1.1em;
+  margin-bottom: 25px;
+}
+
+article div.partiamo form fieldset button {
+  background-color: #fc4827;
+  color: white;
+  padding: 10px 25px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+
+article div.infobox {
+  padding: 10px 25px;
+}
+
+article div.infobox img {
+  border-radius: 50%;
+  margin: 25px 25px;
+  width: 70%;
+}
+
+article div.infobox p {
+  margin: inherit 20px;
+}
+
+/* SECTION REDBOX */
+
+section.redbox {
+  background-color: #e22d03;
+  padding: 50px 25px 25px 25px;
+  color: white;
+  margin-bottom: 60px;
+}
+
+section.redbox strong {
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+section.redbox blockquote {
+  margin: 0;
+}
+
+section.redbox blockquote p {
+  padding: 15px;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+section.redbox blockquote p::before {
+  content: "\201C";
+}
+
+section.redbox blockquote p::after {
+  content: "\201D";
+}
+
+section.redbox blockquote footer cite {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+/* SEZIONE DEI BOX INFORMATIVI */
+section.boxinformativi div {
+    margin: 25px 25px 35px 25px;
+    border: 1px solid #dee1e3;
+}
+
+section.boxinformativi div img {
+    margin: 25px 25px;
+    padding: 10px 10px; */
+    margin: auto;
+    width: 100%;
+}
+
+section.boxinformativi div p {
+    font-weight: 300;
+}
+
+section.boxinformativi div p, section.boxinformativi div h3 {
+    padding: 5px 10px;
+}
+
+/* FOOTER */
+
+footer.contatti {
+    background-color: #25a2c3;
+    padding: 10px 10px;
+}
+
+footer.contatti p {
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+footer.contatti strong {
+    font-size: 2.1rem;
+    font-weight: bold; 
+    color: white;
+}
+
+footer.contatti a {
+    display: block;
+    color: #c8e7f0;
+    font-size: 0.9em;
+}
+
+footer.contatti a:visited {
+    display: block;
+    color: #c8e7f0;
+}
+
+footer.contatti a:last-child {
+    text-decoration: none;
+    
+}
+
+.margine-link {
+    margin-right: 5px;
+}
+
+footer.contatti div.copyright {
+    color: #c8e7f0;
+    font-size: 0.8em;
+    padding: 25px;
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+footer.contatti div.copyright a {
+    display: inline;
+    text-decoration: underline;
+}
+
+footer.contatti hr {
+    width: 60%;
+    margin-top: 25px;
+}
